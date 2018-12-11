@@ -7,7 +7,7 @@ Calculate your carbon footprint from a csv file containing your travels with Ori
 
 The script calculates the geodesic distance return in km and multiplies by an average value of the CO2 equivalent passenger / km factor
 depending on the distance of the flight. The average has been estimated using the values provided by the French DGAC estimator:
-\url{https://eco-calculateur.dta.aviation-civile.gouv.fr/}
+https://eco-calculateur.dta.aviation-civile.gouv.fr/
 
 To take radiative forcing into account, we multiply the emission by 1.891 as recommended by the UK Department for Environment, Food \& Rural Affairs
 

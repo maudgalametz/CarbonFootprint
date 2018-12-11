@@ -23,9 +23,9 @@ def CarbonFootprint(file):
 		#print(data['Origin'][i] + "-->" + data['Destination'] + " in kilometers")
 		dist = geodesic((location1.latitude, location1.longitude),(location2.latitude, location2.longitude)).miles/0.62137
 		if dist < 1500:
-			Total = Total + (2*dist)*0.15 #short-flights - in Co2 kg /eq_passeger/km 
+			Total = Total + (2*dist)*0.15 #short-flights - in Co2 kg /eq_passenger/km 
 		else: 
-			Total = Total + (2*dist)*0.12 #long-flights  - in Co2 kg /eq_passeger/km
+			Total = Total + (2*dist)*0.12 #long-flights  - in Co2 kg /eq_passenger/km
 		
 	print('Total Carbon footprint in tons CO2:')
 	print(Total/1000.)
